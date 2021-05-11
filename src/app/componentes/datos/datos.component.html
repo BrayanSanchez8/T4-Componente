@@ -1,0 +1,57 @@
+<ion-content color="dark" >
+
+
+
+
+
+
+
+
+    <ul>
+ <img   class="animate__animated animate__rollIn" style="display: block; margin: 0 auto" src="https://occ-0-2705-1001.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABcb0yL8KdS3lxlB7w7kD6GfBTivnVVTfpiW0ZQTi6nvwWZIEpS5rU5iFeO_kJxGzEDnOaLx7iq0zM3FJc5e1gGqEGcaCkNotiOAl.png">
+<br>
+<br>
+      <li *ngFor="let nombress of nombre; index as i">
+
+
+        <ion-card color="secondary">
+          <ion-card-header style="text-align: center;" color="success" >
+            <l>
+               {{nombress}}
+            </l>
+           </ion-card-header>
+          <br>
+
+
+
+          <ion-card-content style="text-align: center;" color="light">
+            <img src="{{imagen[i]}}">
+            <p> Especie: {{Especie[i]}}   <br>
+              Estado de vida: {{Estado[i]}}
+            </p>
+
+          </ion-card-content>
+        </ion-card>
+        <br>
+
+
+
+
+  </ul>
+  <div style="text-align: right;" >
+  <ion-button  size="large" color="dark" (click)="back()"><<</ion-button>
+  <ion-button  size="large" color="dark" (click)="next()">>></ion-button>
+
+</div>
+
+</ion-content>
+
+
+
+
+
+
+
+
+
+
