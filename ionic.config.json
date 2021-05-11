@@ -1,0 +1,7 @@
+{
+  "name": "T4-Componente",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
